@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>TÍNH TIỀN ĐIỆN</title>
+ <link rel="stylesheet" href="style.css">
+ <script type="text/javascript" src="function.js"></script>
+</head>
+<body> 
+<h1 align='center' style="color:red">TÍNH TIỂN ĐIỆN-Nhóm N2H2</h1>
+ <table border='1' cellpadding="0" cellspacing="30px">
+   <tr class="dong">
+    <td class="cot">Số điện cũ</td>
+    <td class="cot">
+     <input type='text' value="" name='diem1' id='diem1' placeholder="Nhập số điện cũ" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập số điện cũ'"/>
+    </td>
+   </tr>
+   <tr class="dong">
+    <td class="cot">Số điện mới</td>
+    <td class="cot">
+     <input type='text' value="" name='diem2' id='diem2' placeholder="Nhập số điện mới" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhập số điện mới'"/>
+    </td>
+   </tr>
+ 
+   <tr class="dong">
+    <td class="cot">Tổng tiền điện là:</td>
+    <td class="cot">
+     <input type='text' value="" name='dtb' id='dtb'/>
+    </td>
+   </tr>
+   <tr class="dong">
+    <td colspan='2' class="cot">
+     <input type="button" value='Tính tiền' name="btnXeploai" id='btnXeploai' onclick="dtb.value=Tinhdiemtb()" />
+    </td>
+   </tr> 
+ </table>
+</body>
